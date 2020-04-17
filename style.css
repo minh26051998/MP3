@@ -1,0 +1,47 @@
+body {
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.content-2 {
+	display: grid;
+	grid-template-columns: 2fr 1fr
+}
+
+.mp3-header {
+	
+}
+
+.mp3-menu {
+	padding: 0px;
+	margin: 0px;
+}
+
+.content-1 {
+	margin: 10px 0px;
+}
+
+.content-2 {
+	padding: 0% 15%;
+}
+
+.content-3 {
+	margin-left: 10px;
+}
+
+.theme-container, h3{
+	margin-left: 10px;
+}
+
+.baihat-zingchart-container{
+	margin-left: 10px;
+}
+
+.mv-zingchart-container{
+	margin-left: 10px;
+}
+
+.album-zingchart-container{
+	margin-left: 10px;
+}

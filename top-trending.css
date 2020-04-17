@@ -1,0 +1,88 @@
+.container{
+	padding-top: 60px;
+}
+
+.container h2{
+	color: red;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+
+.item {
+	padding: 0px 0px;
+	font-family: Arial, sans-serif;
+	display: flex;
+	align-items: center;
+}
+
+.dash {
+	padding: 0px 20px 8px 20px;
+	box-sizing: border-box;
+}
+
+.image {
+	position: relative;
+	background-image: url('images/mrsiro.jpg');
+	width: 70px;
+	height: 70px;
+	background-size: cover;
+	margin-right: 10px;
+}
+
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: #1b18182e;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.overlay img{
+	width: 50px;
+	height: 40px;
+	transform: scale(0);
+	transition: all 0.3s;
+}
+
+.info {
+	flex-grow: 5;
+}
+
+.singer {
+
+	color: #3333335e;
+}
+
+.utilities {
+	flex-grow: 2;
+}
+
+.utilities .fas {
+	color: #3333335e;
+	padding-right: 7px;
+}
+
+.number, .view {
+	font-size: 20px;
+	color: blue;
+}
+
+.image:hover .overlay{
+	opacity: 1;
+}
+
+.image:hover .overlay img {
+	transform: scale(1);
+}
+
+.name:hover {
+	color: purple;
+}
+
+.utilities .fas:hover {
+	color: purple;
+}

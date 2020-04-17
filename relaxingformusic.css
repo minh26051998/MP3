@@ -1,0 +1,57 @@
+.relaxing {
+	padding-top: 15px;
+	color: red;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	margin: 10px 0px 5px 0px;
+}
+
+.four-relax {
+	display: flex;
+}
+
+ .relax-item {
+ 	margin: 5px;
+ 	width: 140px;
+ 	height: 160px;
+ 	overflow: hidden;
+ 	position: relative;
+ }
+
+ .relax-images {
+ 	width: 140px;
+ 	height: 140px;
+ 	transition: all 0.5s;
+ }
+
+.relax-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 140px;
+	height: 140px;
+	background-color: rgba(0, 0, 0, 0.6);
+	opacity: 0;
+}
+
+.relax-item a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+.relax-button {
+	width: 60px;
+	height: 50px;
+}
+
+.relax-item:hover .relax-overlay {
+	opacity: 1;
+}
+
+.relax-item a:hover {
+	color: purple;
+}

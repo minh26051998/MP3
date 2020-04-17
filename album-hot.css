@@ -1,0 +1,77 @@
+body{
+	font-family: sans-serif;
+}
+.four-album {
+	display: flex;
+}
+
+.album-hot {
+	font-size: 24px;
+	color: red;
+	font-family: sans-serif;
+}
+
+.album-item {
+	margin: 0px 5px;
+	width: 140px;
+	height: 200px;
+}
+
+.album-overlay  .album-button {
+	width: 50px;
+	height: 40px;
+	transform: scale(0.5);
+	transition: all 0.5s;
+}
+
+.album-image {
+	width: 140px;
+	height: 140px;
+	position: relative;
+}
+
+.album-image img {
+	background-size: cover;
+	width: 140px;
+	height: 140px;
+}
+
+.album-overlay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0%;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.album-info a{
+	font-size: 14px;
+	padding-top: 5px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.album-info .album-singer {
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.album-overlay:hover .album-button{
+	transform: scale(1.2);
+	transition: all 0.5s;
+}
+
+.album-image:hover .album-overlay {
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.album-info a:hover {
+	color: purple;
+}

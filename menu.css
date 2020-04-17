@@ -1,0 +1,150 @@
+.all-menu {
+	font-family: sans-serif;
+	list-style: none;
+	display: flex;
+	padding: 0% 15%;
+	background-color: #afcadc8c;
+	height: 50px;
+	align-items: center;
+	margin: 0px;
+}
+
+.all-menu .home {
+	padding-right: 5px;
+}
+
+.all-menu .off {
+	flex-grow: 12;
+}
+
+.all-menu .off .none{
+	justify-content: flex-end;
+}
+
+.all-menu .item {
+	height: 50px;
+	padding: 17px 0px;
+	align-items: center;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.all-menu .item .none{
+	
+	text-decoration: none;
+	color: #443939;
+	margin: 0px;
+}
+
+.all-menu .item {
+	flex-grow: 1;
+}
+
+.all-menu .upload:hover {
+	color:purple;
+}
+
+/*.all-menu .item:hover {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.1);
+}*/
+
+.all-menu .off a{
+	text-decoration: none;
+	color: black;
+}
+
+.all-menu .off a .turnoff {
+	padding-right: 10px;
+	padding-left: 3px;
+
+}
+
+.all-menu .off a:hover {
+	color: purple;
+}
+
+.all-menu .item a:hover{
+	color: purple;
+}
+
+.all-menu .off .none {
+	display: flex;
+}
+
+.all-menu .submenu {
+	position: relative;
+}
+
+.list{
+	position: absolute; 
+	padding: 10px 0px;
+	margin: 0px;
+	left: 0;
+	top: 100%;
+	color: black;
+	display: none;
+	background-color: #FFF;
+}
+
+.item .list {
+	width: 80px;
+} 
+
+.item .list a{
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.item a:hover{
+	color: purple;
+}
+
+.all-menu .submenu:hover .list{
+	display: block;
+}
+
+.all-menu .zingchart {
+	position: relative;
+}
+
+.grid-container {
+	padding: 10px 0px;
+	margin: 0px;
+	position: absolute;
+	top: 100%;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 20px;
+	background-color: #FFF;
+	display: none;
+}
+
+.grid-container .column1 {
+	padding-top: 15px;
+	width: 150px;
+}
+
+.zingchart:hover .grid-container{
+	display: flex;
+}
+
+.grid-container .column1 a {
+	padding-top: 10px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.grid-container .column1 a:hover {
+	color: purple;
+}
+
+.grid-container .column1 caption {
+	color: blue;
+	font-weight: bold;
+}
+
+

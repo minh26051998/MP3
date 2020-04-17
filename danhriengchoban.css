@@ -1,0 +1,47 @@
+.content-3 {
+	width: 410px;
+	height: 120px;
+	background-position: -50px -50px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url('images/background.jpg');
+	display: grid;
+	grid-template-columns: 1fr 5fr;
+}
+.image-danhrieng {
+	margin: 15px;
+	width: 90px;
+	height: 90px;
+	background-image: url('images/musicforyou.jpeg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.overlay-danhrieng {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.button {
+	width: 60px;
+	height: 47px;
+}
+
+.image-danhrieng:hover .overlay-danhrieng{
+	opacity: 1;
+}
+
+.write {
+	color: #FFF;
+	text-decoration: none;
+}

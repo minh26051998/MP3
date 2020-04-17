@@ -1,0 +1,134 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+.album-zingchart {
+	font-family: sans-serif;
+	color: purple;
+}
+
+.album-zingchart-container .album-type ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.album-zingchart-container .album-type ul li{
+	padding: 10px 32px 10px 32.5px; 
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.album-zingchart-container .album-top1{
+	position: relative;
+	color: #FFF;
+	align-items: flex-end;
+	width: 352px;
+	height: 120px;
+	background-image: url('images/anhnen.jpg');
+	background-size: cover;
+	display: flex;
+}
+
+.album-zingchart-container .album-top1 .album-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    align-items: flex-end;
+    display: flex;
+}
+
+.album-number {
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
+
+.album-info {
+	padding-bottom: 4px;
+	padding-left: 10px;
+	flex-grow: 1
+}
+
+.album-info a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.album-view {
+	padding-right: 5px;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
+
+.album-zingchart-container .album-type ul li:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.album-zingchart-container .album-top1 .album-overlay .album-info .a:hover{
+	color: purple;
+}
+
+.album-image img{
+	
+	width: 150px;
+	height: 150px;
+}
+
+.album-image {
+	position: relative;
+}
+
+.album {
+	margin: 15px 0px;
+	display: flex;
+}
+
+.album-item .album {
+	width: 352px;
+	height: 150px;
+}
+
+.album-info2 {
+	padding-left: 20px;
+}
+
+.album-info2 a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.album-overlay2{
+	transition: all 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+}
+
+.album-info2 .album-singer,p{
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.album-overlay2 .album-button {
+	width: 60px;
+	height: 50px;
+}
+
+.album-image:hover .album-overlay2{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.album-info2 a:hover{
+	color: purple;
+}

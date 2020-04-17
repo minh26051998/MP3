@@ -1,0 +1,134 @@
+body{
+	font-family: Arial, sans-serif;
+}
+
+.mv-zingchart {
+	font-family: sans-serif;
+	color: purple;
+}
+
+.mv-zingchart-container .mv-type ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+
+.mv-zingchart-container .mv-type ul li{
+	padding: 10px 32px 10px 32.5px; 
+	margin: 0px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mv-zingchart-container .mv-top1{
+	position: relative;
+	color: #FFF;
+	align-items: flex-end;
+	width: 352px;
+	height: 120px;
+	background-image: url('images/mv-trucxinh.jpg');
+	background-size: cover;
+	display: flex;
+}
+
+.mv-zingchart-container .mv-top1 .mv-overlay{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+    align-items: flex-end;
+    display: flex;
+}
+
+.mv-number {
+	padding-left: 5px;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
+
+.mv-info {
+	padding-bottom: 4px;
+	padding-left: 10px;
+	flex-grow: 1
+}
+
+.mv-info a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.mv-view {
+	padding-right: 5px;
+	padding-bottom: 10px;
+	font-size: 24px;
+}
+
+.mv-zingchart-container .mv-type ul li:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mv-zingchart-container .mv-top1 .mv-overlay .mv-info .a:hover{
+	color: purple;
+}
+
+.mv-image img{
+	
+	width: 150px;
+	height: 70px;
+}
+
+.mv-image {
+	position: relative;
+}
+
+.mv {
+	margin: 15px 0px;
+	display: flex;
+}
+
+.mv-item .mv {
+	width: 352px;
+	height: 70px;
+}
+
+.mv-info2 {
+	padding-left: 20px;
+}
+
+.mv-info2 a{
+	display: block;
+	color: black;
+	text-decoration: none;
+}
+
+.mv-overlay2{
+	transition: all 0.5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0%;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+}
+
+.mv-info2 .mv-singer,p{
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.mv-overlay2 .mv-button {
+	width: 60px;
+	height: 50px;
+}
+
+.mv-image:hover .mv-overlay2{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.mv-info2 a:hover{
+	color: purple;
+}
